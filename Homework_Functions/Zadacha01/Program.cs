@@ -2,40 +2,33 @@
 // Напишите программу, которая бесконечно запрашивает целые числа с консоли. 
 // Программа завершается при вводе символа ‘q’ или при вводе числа, сумма цифр которого чётная.
 
-int SumOfDigits(int n) 
-{
-    int sum = 0;
-    while (n != 0)
-    {
-        sum += n % 10; // Получаем последнюю цифру числа и добавляем её к сумме.
-        n /= 10; // Удаляем последнюю цифру из числа.
-    }
-    return sum;
-}
-
-
-Console.Clear();
-Console.Write("Введите целое число: ");
-int n = int.Parse(Console.ReadLine()!);
-
-Console.WriteLine("Чтобы завершить программу, введите символ 'q' или продолжайте ввод, до тех пор пока сумма цифр введенного числа не будет четной");
 while(true)
 {
-    string input = Console.ReadLine()!;
-        if (input.ToLower() == "q")
+    Console.Clear();
+    Console.Write("Введите целое число или символ 'q' для выхода из программы: ");
+    string input = Console.ReadLine(); // Чтение строки ввода 
+    if (input == "q") 
     {
-        Console.WriteLine("Программа завершена!");
+        Console.WriteLine($"Программа завершена!");
         break;
     }
-    else if(SumOfDigits(n) % 2 == 0)
+    int number;
+    if (int.TryParse(input, out number))
     {
-        Console.WriteLine($"Сумма цифр числа {n} чётная. Программа завершена!");
-        break;
-    }
-    else
-    {
-        Console.WriteLine($"Продолжайте ввод");
+        int sum = 0;
+        while (number > 0) 
+        {
+            sum += number % 10; // Добавление последней цифры к сумме
+            number /= 10; // Удаление последней цифры из числа
+        }
+        if (sum % 2 == 0) // сумма цифр четная?
+        {
+            Console.WriteLine($"Программа завершена!");
+            break;
+        }
+        else 
+        {
+            Console.WriteLine("Некорректный ввод. Пожалуйста, введите целое число или 'q'");
+        }
     }
 }
- 
-
