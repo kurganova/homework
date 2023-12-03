@@ -1,0 +1,14 @@
+C:\Users\kiro1\OneDrive\Desktop\Homework\Homework_Arrays\Zadacha02\bin\Debug\net7.0\Zadacha02.exe
+C:\Users\kiro1\OneDrive\Desktop\Homework\Homework_Arrays\Zadacha02\bin\Debug\net7.0\Zadacha02.deps.json
+C:\Users\kiro1\OneDrive\Desktop\Homework\Homework_Arrays\Zadacha02\bin\Debug\net7.0\Zadacha02.runtimeconfig.json
+C:\Users\kiro1\OneDrive\Desktop\Homework\Homework_Arrays\Zadacha02\bin\Debug\net7.0\Zadacha02.dll
+C:\Users\kiro1\OneDrive\Desktop\Homework\Homework_Arrays\Zadacha02\bin\Debug\net7.0\Zadacha02.pdb
+C:\Users\kiro1\OneDrive\Desktop\Homework\Homework_Arrays\Zadacha02\obj\Debug\net7.0\Zadacha02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiro1\OneDrive\Desktop\Homework\Homework_Arrays\Zadacha02\obj\Debug\net7.0\Zadacha02.AssemblyInfoInputs.cache
+C:\Users\kiro1\OneDrive\Desktop\Homework\Homework_Arrays\Zadacha02\obj\Debug\net7.0\Zadacha02.AssemblyInfo.cs
+C:\Users\kiro1\OneDrive\Desktop\Homework\Homework_Arrays\Zadacha02\obj\Debug\net7.0\Zadacha02.csproj.CoreCompileInputs.cache
+C:\Users\kiro1\OneDrive\Desktop\Homework\Homework_Arrays\Zadacha02\obj\Debug\net7.0\Zadacha02.dll
+C:\Users\kiro1\OneDrive\Desktop\Homework\Homework_Arrays\Zadacha02\obj\Debug\net7.0\refint\Zadacha02.dll
+C:\Users\kiro1\OneDrive\Desktop\Homework\Homework_Arrays\Zadacha02\obj\Debug\net7.0\Zadacha02.pdb
+C:\Users\kiro1\OneDrive\Desktop\Homework\Homework_Arrays\Zadacha02\obj\Debug\net7.0\Zadacha02.genruntimeconfig.cache
+C:\Users\kiro1\OneDrive\Desktop\Homework\Homework_Arrays\Zadacha02\obj\Debug\net7.0\ref\Zadacha02.dll
