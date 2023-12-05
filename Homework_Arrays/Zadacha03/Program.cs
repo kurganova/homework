@@ -2,13 +2,13 @@
 // Задайте массив из вещественных чисел с ненулевой дробной частью. Найдите разницу между максимальным 
 // и минимальным элементом массива.
 
-void inputArray(double[] array)
+void InputArray(double[] array)
 {
     for(int i = 0; i < array.Length; i++)
     array[i] = Math.Round(new Random().NextDouble(),3);
 }
 
-double findMax(double[] array)
+double FindMax(double[] array)
 {
     double max = array[0];
     foreach (double element in array)
@@ -21,7 +21,7 @@ double findMax(double[] array)
     return max;
 }
 
-double findMin(double[] array)
+double FindMin(double[] array)
 {
     double min = array[0];
     foreach (double element in array)
@@ -38,6 +38,6 @@ Console.Clear();
 Console.Write("Введите кол-во элементов массива: ");
 int n = int.Parse(Console.ReadLine()!);
 double[] array = new double[n];
-inputArray(array); 
+InputArray(array); 
 Console.WriteLine($"Массив: [{string.Join(", ", array)}]");
-Console.WriteLine($"{findMax(array)} - {findMin(array)} = {Math.Round(findMax(array) - findMin(array), 3)}");
+Console.WriteLine($"{FindMax(array)} - {FindMin(array)} = {Math.Round(FindMax(array) - FindMin(array), 3)}");
