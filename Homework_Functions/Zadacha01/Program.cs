@@ -6,7 +6,7 @@ while(true)
 {
     Console.Clear();
     Console.Write("Введите целое число или символ 'q' для выхода из программы: ");
-    string input = Console.ReadLine(); // Чтение строки ввода 
+    string input = Console.ReadLine()!; // Чтение строки ввода 
     if (input == "q") 
     {
         Console.WriteLine($"Программа завершена!");
