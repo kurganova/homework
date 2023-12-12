@@ -2,5 +2,5 @@
 // Сформируйте строку, в которой все заглавные буквы заменены на строчные.
 
 string input = "sTYRweQ72-"; 
-string result = input.ToLower();
+string result = input.ToLower(); //Преобразование заглавных букв в строчные
 Console.WriteLine(result);
