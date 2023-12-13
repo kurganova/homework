@@ -22,8 +22,6 @@ Console.Write("Введите 2-ое число: ");
 int n = int.Parse(Console.ReadLine()!);
 
 if (m < n)
-{
     Console.WriteLine(PrintNumbers(m, n));
-}
 else
     Console.WriteLine(PrintNumbers(n, m));
