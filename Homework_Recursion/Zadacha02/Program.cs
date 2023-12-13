@@ -13,6 +13,8 @@ int Akkerman(int m, int n)
 }
 
 Console.Clear();
-int m = 2;
-int n = 3;
+Console.Write("Введите 1-ое неотрицательное число: ");
+int m = int.Parse(Console.ReadLine()!);
+Console.Write("Введите 2-ое неотрицательное число: ");
+int n = int.Parse(Console.ReadLine()!);
 Console.WriteLine($"Функция Аккермана A(m, n) = {Akkerman(m, n)}");
