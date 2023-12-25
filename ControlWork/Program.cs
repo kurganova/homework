@@ -18,13 +18,13 @@ string[] CreateThreeSymbolArray (string[] array)
         }
     }
     string[] threeSymbolArray = new string[count];
-    for (int i = 0, j = 0; i < array.Length; i++)
+    for (int n = 0, m = 0; n < array.Length; n++)
     {
-        string simbol = array[i];
+        string simbol = array[n];
         if (simbol.Length <= 3)
         {
-            threeSymbolArray[j] = simbol;
-            j++;
+            threeSymbolArray[m] = simbol;
+            m++;
         }
     }
     return threeSymbolArray;
