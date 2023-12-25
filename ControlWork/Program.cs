@@ -31,8 +31,7 @@ string[] CreateThreeSymbolArray (string[] array)
 }
 
 Console.Clear();
-string[] firstarray = {"Russia", "257", "Denmark", "9", "Kazan", ":)"};
+string[] firstarray = {"Russia", "257", "Denmark", "9", "USA", ":)"};
 Console.WriteLine($"Первоначальный массив: [{string.Join(", ", firstarray)}]");
-string[] threeSymbolArray = CreateThreeSymbolArray(arr);
+string[] threeSymbolArray = CreateThreeSymbolArray(firstarray);
 Console.WriteLine($"Массив из строк, длина которых <= 3 символам : [{string.Join(", ", threeSymbolArray)}]");
-
